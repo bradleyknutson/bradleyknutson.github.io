@@ -1,16 +1,69 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en-us">
     <head>
+        <title>Bootstrap Portfolio</title>
         <meta charset="utf-8">
-        <title>GitHub Site</title>
-        <!-- <meta name="description" content=""> -->
-        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
 
     <body>
-        <h1>This is a test</h1>
-        
+        <!-- Navbar Top -->
+        <nav class="navbar">
+            <div class="container">
+                <span class="navbar-brand mb-0 h1" id="name">Bradley Knutson</span>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="container mainContent">
+
+            <!-- About Me -->
+            <section class="row">
+                <div class="col-lg-12">
+                    <h1>About Me</h1>
+                </div>
+            </section>
+
+            <!-- Image and Bio -->
+            <article class="row">
+                <div class="col-lg-12">
+                    <img class="headshot" src="assets/images/cropped.jpg" alt="Bradley Knutson" id="headshot">
+                    <p>
+                        Welcome all, to the world of Me!  My name is Bradley Knutson and I am a burgeoning developer and entrepreneur.  Starting late 2019, I am a student at the DU coding bootcamp focusing on web development using the MERN stack.  It has always been a dream of mine to be a programmer and I have hit my jump off point.  I have experience with web development (HTML, CSS, Javascript, etc) as well as programming using Python, C++, and bit of C#.  Although I have not yet had my first job using these skills, I plan to become more proficient in them and begin my career.
+                    </p>
+
+                    <p>
+                        My side projects consist of using various Raspberry Pis for different objectives such as a Pi Hole, which is used for blocking advertisements at the network level as opposed to in a browser or application.  I am also writing plans for a full arcade cabinet using a new Raspberry Pi to emulate as many games as possible, both in terms of classic arcade and older generation console games such as the Sega Genesis.
+                    </p>
+
+                    <p>
+                        On a normal day you'd find me playing video games, reading a science fiction novel, riding my motorcycle (Kawasaki Z1000) or just sitting back and relaxing with my collection of Rubik's Cubes.  I have a unique talent for puzzles and brain teasers and thus spend a decent amount of my time looking for new challenges.
+                    </p>
+                </div>
+            </article>
+        </div>
+
+
+
+
+          <!-- Footer bottom -->
+        <footer class="navbar fixed-bottom">
+            <a class="text-muted" href="#">Copyright ©</a>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     </body>
 </html>

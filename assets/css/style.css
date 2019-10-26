@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-image: url("../images/pixel_weave/pixel_weave.png");
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+  }
+
+.mainContent {
+    position: relative;
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 75px;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+a {
+    color: #777777;
+}
+
+#name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 2.5em;
+    padding: .3125rem 1rem;
+}
+
+.navbar .container {
+    padding: 0;
+}
+
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #cccccc;
+    color: #4aaaa5;
+}
+
+.headshot {
+    float: left;
+    margin-right: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+}
+
+.imageText {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    position: relative;
+    bottom: 100px;
+    height: 75px;
+    padding-top: .5em;
+    margin-left: 0;
+    overflow: hidden;
+}
+
+footer {
+    font-size: 12px;
+}
+
+footer a {
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.appImage {
+    width: 100%;
+}
