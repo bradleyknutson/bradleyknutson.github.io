@@ -1,3 +1,25 @@
 $primary-color: #603F83FF;
 $secondary-color: #C7D3D4FF;
 
+body {
+    background-color: $secondary-color;
+}
+
+#main-header, .menu {
+    background-color: $primary-color;
+    color: $secondary-color;
+    a {
+        color: $secondary-color;
+    }
+    padding-bottom: 20px;
+}
+
+hr {
+    border: 5px solid $primary-color;
+    border-radius: 5px;
+}
+
+.section {
+    border-left: 3px solid $primary-color;
+    margin-top: 20px;
+}
