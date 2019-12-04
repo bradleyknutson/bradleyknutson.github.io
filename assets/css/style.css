@@ -32,4 +32,18 @@ img {
   margin-left: 20px;
   border-left: 5px solid #603F83FF;
 }
+
+#contact input, #contact textarea {
+  background: #C7D3D4FF;
+  border-bottom: 1px solid #603F83FF;
+}
+
+.btn {
+  background-color: #603F83FF !important;
+  color: #C7D3D4FF !important;
+}
+
+.fas {
+  color: #603F83FF;
+}
 /*# sourceMappingURL=style.css.map */

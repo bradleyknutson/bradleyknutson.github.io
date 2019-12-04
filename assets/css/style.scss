@@ -34,3 +34,20 @@ img{
     margin-left: 20px;
     border-left: 5px solid $primary-color;
 }
+
+#contact {
+    input, textarea {
+        background: $secondary-color;
+        border-bottom: 1px solid $primary-color;
+    }
+
+}
+
+.btn {
+    background-color: $primary-color!important;
+    color: $secondary-color!important;
+}
+
+.fas {
+    color: $primary-color;
+}

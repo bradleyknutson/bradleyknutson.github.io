@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css">
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/0f8ea27571.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -25,7 +26,7 @@
                                 <a href="#portfolio" class="nav-link">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#blog" class="nav-link">Blog</a>
+                                <a href="./blog.html" class="nav-link">Blog</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#contact" class="nav-link">Contact</a>
@@ -120,8 +121,62 @@
             </div>
         </section>
         <hr class="container">
-        <section id="blog" class="container section">
-            
+        <section id="contact" class="container section">
+            <div class="row">
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" name="name" id="name" class="form-control">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form">
+                                    <textarea name="message" id="message" rows="5" class="form-control md-textarea"></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-lg">Send</a>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <i class="fas fa-map-marker fa-3x"></i>
+                            <p>Denver, CO 80237, USA</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone fa-3x"></i>
+                            <p>+1 720 525 4166</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope-open-text fa-3x"></i>
+                            <p>bradley@bknutson.com</p>
+                        </li>
+                    </ul>
+                </div> 
+            </div>
         </section>
         
 
