@@ -1,5 +1,6 @@
 body {
   background-color: #C7D3D4FF;
+<<<<<<< HEAD
 }
 
 #main-header, .menu {
@@ -46,4 +47,27 @@ img {
 .fas {
   color: #603F83FF;
 }
+=======
+}
+
+#main-header, .menu {
+  background-color: #603F83FF;
+  color: #C7D3D4FF;
+  padding-bottom: 20px;
+}
+
+#main-header a, .menu a {
+  color: #C7D3D4FF;
+}
+
+hr {
+  border: 5px solid #603F83FF;
+  border-radius: 5px;
+}
+
+.section {
+  border-left: 3px solid #603F83FF;
+  margin-top: 20px;
+}
+>>>>>>> 55306ace9dde757210d870547f125312735f6084
 /*# sourceMappingURL=style.css.map */
