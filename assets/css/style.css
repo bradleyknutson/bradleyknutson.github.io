@@ -1,90 +1,109 @@
-* {
-    box-sizing: border-box;
-  }
-
 body {
-    background-image: url("../images/pixel_weave/pixel_weave.png");
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-  }
-
-.mainContent {
-    position: relative;
-    background-color: #ffffff;
-    margin-top: 40px;
-    margin-bottom: 75px;
-    padding-bottom: 20px;
+  background-color: #C7D3D4FF;
 }
 
-.navbar {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 0;
-    background-color: #ffffff;
+#main-header, .menu {
+  background-color: #603F83FF;
+  color: #C7D3D4FF;
+  padding-bottom: 20px;
 }
 
-a {
-    color: #777777;
+#main-header a, .menu a {
+  color: #C7D3D4FF;
 }
 
-#name {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    font-size: 2.5em;
-    padding: .3125rem 1rem;
+hr {
+  border: 5px solid #603F83FF;
+  border-radius: 5px;
 }
 
-.navbar .container {
-    padding: 0;
+.section {
+  border-left: 3px solid #603F83FF;
+  margin-top: 75px;
+  margin-bottom: 75px;
 }
 
-
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 20px 0;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #cccccc;
-    color: #4aaaa5;
+img {
+  width: 100%;
 }
 
-.headshot {
-    float: left;
-    margin-right: 20px;
-    height: 400px;
-    width: 400px;
+.portfolio-item {
+  margin-top: 20px;
+  margin-left: 20px;
+  border-left: 5px solid #603F83FF;
 }
 
-footer {
-    border-top: 8px solid #4aaaa5;
-}
-
-.imageText {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
-    font-size: 2em;
-    text-align: center;
-    color: #ffffff;
-    width: 100%;
-    position: relative;
-    bottom: 100px;
-    height: 75px;
-    padding-top: .5em;
-    margin-left: 0;
-    overflow: hidden;
-}
-
-footer {
-    font-size: 12px;
-}
-
-footer a {
-    margin: 0 auto;
+#contact input, #contact textarea {
+  background: #C7D3D4FF;
+  border-bottom: 1px solid #603F83FF;
 }
 
 .btn {
-    background-color: #4aaaa5;
-    color: #ffffff;
+  background-color: #603F83FF !important;
+  color: #C7D3D4FF !important;
 }
 
-.appImage {
-    width: 100%;
+.fa-map-marker, .fa-phone, .fa-envelope-open-text {
+  color: #603F83FF;
 }
+
+.fa-github {
+  color: #C7D3D4FF;
+}
+
+.navbar {
+  background-color: rgba(96, 63, 131, 0.5);
+}
+
+#main-header {
+  padding-top: 2.5em;
+}
+
+#full-name {
+  font-size: 3.5em;
+}
+
+#title, #location, #phone-number, #email-address {
+  font-size: 1.5em;
+}
+
+h2 {
+  color: #603F83FF;
+  font-weight: 800;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  color: #603F83FF;
+}
+
+p {
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.resume-section, #summary, #employment, .company-name, .job-title, .school-name {
+  border-left: 3px solid #603F83FF;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+.resume-section p, #summary p, #employment p, .company-name p, .job-title p, .school-name p {
+  border-left: 5px solid #603F83FF;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+.section-title {
+  font-size: 2em;
+  font-weight: 700;
+  color: #603F83FF;
+}
+
+.bigger {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #603F83FF;
+}
+/*# sourceMappingURL=style.css.map */
