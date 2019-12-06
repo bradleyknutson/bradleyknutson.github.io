@@ -29,4 +29,4 @@ function sendEmail(event) {
 
 $(document).ready(function(event){
     $('#send-email').on('click', sendEmail);
-})
+});

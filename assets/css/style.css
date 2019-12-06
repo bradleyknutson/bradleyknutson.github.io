@@ -50,4 +50,60 @@ img {
 .fa-github {
   color: #C7D3D4FF;
 }
+
+.navbar {
+  background-color: rgba(96, 63, 131, 0.5);
+}
+
+#main-header {
+  padding-top: 2.5em;
+}
+
+#full-name {
+  font-size: 3.5em;
+}
+
+#title, #location, #phone-number, #email-address {
+  font-size: 1.5em;
+}
+
+h2 {
+  color: #603F83FF;
+  font-weight: 800;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  color: #603F83FF;
+}
+
+p {
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.resume-section, #summary, #employment, .company-name, .job-title, .school-name {
+  border-left: 3px solid #603F83FF;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+.resume-section p, #summary p, #employment p, .company-name p, .job-title p, .school-name p {
+  border-left: 5px solid #603F83FF;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+.section-title {
+  font-size: 2em;
+  font-weight: 700;
+  color: #603F83FF;
+}
+
+.bigger {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #603F83FF;
+}
 /*# sourceMappingURL=style.css.map */
