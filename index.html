@@ -7,10 +7,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css">
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<<<<<<< HEAD
         <script src="https://kit.fontawesome.com/0f8ea27571.js" crossorigin="anonymous"></script>
-=======
->>>>>>> 55306ace9dde757210d870547f125312735f6084
     </head>
 
     <body>
@@ -29,11 +26,7 @@
                                 <a href="#portfolio" class="nav-link">Portfolio</a>
                             </li>
                             <li class="nav-item">
-<<<<<<< HEAD
                                 <a href="./blog.html" class="nav-link">Blog</a>
-=======
-                                <a href="#blog" class="nav-link">Blog</a>
->>>>>>> 55306ace9dde757210d870547f125312735f6084
                             </li>
                             <li class="nav-item">
                                 <a href="#contact" class="nav-link">Contact</a>
@@ -51,11 +44,16 @@
                         <img src="./assets/images/cropped.jpg" alt="Picture of Bradley Knutson" width=100%>
                     </div>
                     <div class="col-md-7">
-                        <p id="full-name">Bradley Knutson</p>
+                        <h1 id="full-name">Bradley Knutson</h1>
                         <p id="title">Full Stack Developer</p>
                         <p id="location">City: Denver, CO</p>
                         <p id="phone-number">Phone Number: 720-525-4166</p>
-                        <p id="email-address">Email Address: bradley@bknutson.com</p>
+                        <p id="email-address">Email Address: <a href="mailto:bradley@bknutson.com">bradley@bknutson.com</a></p>
+                        <div id="social-media">
+                            <a href="https://github.com/bradleyknutson"><i class="fab fa-github fa-3x"></i></a>
+                            <a href="https://www.linkedin.com/in/bradley-knutson-014baa111/"><i class="fab fa-linkedin fa-3x"></i></a>
+                            <a href="mailto:bradley@bknutson.com"><i class="fas fa-envelope fa-3x"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -90,7 +88,6 @@
         <hr class="container">
         <section id="portfolio" class="container section">
             <h2>Portfolio</h2>
-<<<<<<< HEAD
             <div class="row portfolio-item">
                 <div class="col-md-8">
                     <img src="./assets/images/rpsscreenshot.png" alt="Rock Paper Scissors Image">
@@ -131,6 +128,11 @@
         <hr class="container">
         <section id="contact" class="container section">
             <div class="row">
+                <div class="col-md-12">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-md-9 mb-md-0 mb-5">
                     <form id="contact-form" name="contact-form" action="">
                         <div class="row">
@@ -163,10 +165,11 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="text-center text-md-left">
+                            <button id="send-email" type="submit" class="btn btn-lg">Send</button>
+                        </div>
                     </form>
-                    <div class="text-center text-md-left">
-                        <a class="btn btn-lg">Send</a>
-                    </div>
+
                 </div>
                 <div class="col-md-3 text-center">
                     <ul class="list-unstyled mb-0">
@@ -180,29 +183,15 @@
                         </li>
                         <li>
                             <i class="fas fa-envelope-open-text fa-3x"></i>
-                            <p>bradley@bknutson.com</p>
+                            <p><a href="mailto:bradley@bknutson.com">bradley@bknutson.com</a></p>
                         </li>
                     </ul>
                 </div> 
-=======
-            <div class="row">
-                <div class="col">
-                    <h3>Rock Paper Scissors - Multiplayer</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8">
-                    <img src="./assets/images/rpsscreenshot.png" alt="Rock Paper Scissors Image" width=100%>
-                </div>
-                <div class="col-md-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc faucibus nisi nibh, eu rutrum felis sollicitudin ut. Morbi eu dictum est. Sed quis ligula sem. Integer dapibus pharetra sagittis. Proin eget interdum risus. Mauris vitae augue laoreet, molestie diam eu, auctor arcu. Nulla facilisi. Nam non nisi condimentum, placerat velit ut, tristique neque. Etiam sodales volutpat iaculis. Quisque porttitor nulla massa, sed mollis neque vehicula sit amet. Integer pulvinar sapien vitae augue scelerisque eleifend.
-                </div>
->>>>>>> 55306ace9dde757210d870547f125312735f6084
             </div>
         </section>
         
 
 
-    
+    <script src="./assets/js/app.js"></script>
     </body>
 </html>

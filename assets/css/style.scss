@@ -21,7 +21,6 @@ hr {
 
 .section {
     border-left: 3px solid $primary-color;
-<<<<<<< HEAD
     margin-top: 75px;
     margin-bottom: 75px;
 }
@@ -49,9 +48,10 @@ img{
     color: $secondary-color!important;
 }
 
-.fas {
+.fa-map-marker, .fa-phone, .fa-envelope-open-text {
     color: $primary-color;
-=======
-    margin-top: 20px;
->>>>>>> 55306ace9dde757210d870547f125312735f6084
+}
+
+.fa-github {
+    color: $secondary-color;
 }
